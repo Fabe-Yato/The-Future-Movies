@@ -1,0 +1,122 @@
+body{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("./batman-background.jpg");
+    background-size: 1365px;
+    background-position-y: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.lista-Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 20px;
+    font-size: 1.3rem;
+    list-style: none;
+}
+.lista-Navbar li{
+    margin: 15px;
+}
+.lista-Navbar li a{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+.lista-Navbar li a:hover{
+    color: rgb(165, 165, 165);
+    font-size: 1.4rem;
+}
+.lista-Navbar li a:active{
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+}
+.logoBatman{
+    width: 310px;
+    margin-top:-90px;
+    margin-left: 155px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+.conteudo-principal iframe{
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.informacoes-filmes{
+    display: grid;
+    grid-template-columns: .2fr .2fr .2fr;
+    padding-left: 50px;
+    margin-left: 10px;
+
+}
+.critics{
+    display: flex;
+    flex-direction: row;
+    
+}
+.critics img{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    transition: 2s;
+}
+.critics img:hover{
+    margin-top: -3px;
+}
+p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+p:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.audience{
+    width: 50px;
+    height: 70px;
+    margin-top: 10px;
+    transition: 2s;
+}
+.audience:hover{
+    margin-top: -3;
+}
+.btn-comprar{
+    width: 150px;
+    height: 50px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-left: 50px;
+    background-color: #fbff14e3;
+    border-radius: 12px;
+    outline: 5px dashed rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 1s;
+}
+.btn-comprar:hover{
+    background-color: #000000e3;
+    color: white;
+    
+}
+.atores{
+    position: absolute;
+    width: 300px;
+}
+.classificacao{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-left: 275px;
+    border-radius: 5px;
+}
+.bilheteria{
+    position: absolute;
+    margin-top: 135px;
+}
+.data{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 135px;
+}
