@@ -166,6 +166,7 @@ p:hover{
     margin-top: 12%;
     border-radius: 20px;
     transition: 1s ease;
+    cursor: pointer;
 }
 .filmes-futuros img:hover{
     width: 250px;
