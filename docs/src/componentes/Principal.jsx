@@ -9,7 +9,7 @@ const Principal = () =>{
     return(
         <div className="conteudo-principal-filmes">
             {/* <p className="legenda-lancamentos">Próximos Lançamentos</p> */}
-            <div className="filmes-futuros">
+            <div id="proximo-lancamento" className="filmes-futuros">
                 <div className="ponta-filmes">
                     <img src={SerraEletrica}/>
                 </div>
@@ -25,8 +25,10 @@ const Principal = () =>{
                 <div className="ponta-filmes">
                     <img src={HalloWeen}/>
                 </div>
-                
             </div>
+
+            <h1 className="nome-filme-lancamento">Halloween Ends - Outubro 2022</h1>
+
         </div>
     )
 }
