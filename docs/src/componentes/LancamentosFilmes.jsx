@@ -1,13 +1,13 @@
 import react from "react";
-import SerraEletrica from "../imgs/massacre-da-serra-eletrica.jpg";
+import Thor from "../imgs/thor-amor-e-trovao-poster.jpg";
 import Morbius from "../imgs/morbius-poster.jpg";
 import Dumbledore from  "../imgs/secrets-of-dumbledore.jpg";
 import DoutorEstranho from "../imgs/doutor-estranho.webp";
 import HalloWeen from "../imgs/halloween-ends.jpg"
 
-const Principal = (props) =>{
-    const MassacreSerra = () =>{
-        props.setFilmes("O Massacre da Serra Eletrica - Fevereiro 2022");
+const LancamentosFilmes = (props) =>{
+    const ThorFilme = () =>{
+        props.setFilmes("Thor: Amor e Trovão - Julho 2022");
     }
     const MorbiusFilme = () =>{
         props.setFilmes("Morbius - Março 2022");
@@ -23,10 +23,11 @@ const Principal = (props) =>{
     }
 
     return(
+
         <div className="conteudo-principal-filmes">
             <div id="proximo-lancamento" className="filmes-futuros">
                 <div className="ponta-filmes">
-                    <img onMouseEnter={MassacreSerra} src={SerraEletrica}/>
+                    <img onMouseEnter={ThorFilme} src={Thor}/>
                 </div>
                 <div className="centro-filmes">
                     <img onMouseEnter={MorbiusFilme} src={Morbius}/>
@@ -45,7 +46,8 @@ const Principal = (props) =>{
             <h1 className="nome-filme-lancamento">{props.filmes}</h1>
 
         </div>
+       
     )
 }
 
-export default Principal;
+export default LancamentosFilmes;
