@@ -24,14 +24,17 @@ const Inicio = ()=>{
                     </div>
 
                     <div>
-                        <button className="btn-comprar">Comprar</button>
+                        <a href="https://www.ingresso.com/" target="_blank">
+                            <button className="btn-comprar">Comprar</button>
+                        </a>
+                        
                     </div>
                     <div>
                         <div className="atores-legenda">Atores:</div>
                         <div className="atores">Robert Pattinson, Zoe Kravitz, Paul Dano</div>
                     </div>
                     <div>
-                        <img className="classificacao" src={ClassificacaoEtaria} alt="" />
+                        <img className="classificacao" src={ClassificacaoEtaria} />
                     </div>
                     <div className="bilheteria">
                         <p>$248 MILHÕES ARRECADADOS</p>
