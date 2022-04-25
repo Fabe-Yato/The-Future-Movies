@@ -3,6 +3,8 @@ import "./App.css"
 import Navbar from "./componentes/Navbar";
 import Inicio from "./componentes/Inicio";
 import LancamentosFilmes from "./componentes/LancamentosFilmes";
+import SobreFilmeNav from './componentes/SobreFilmeNav';
+import SobreFilmeSinopse from './componentes/SobreFilmeSinopse';
 
 function App() {
     const [filmes, setFilmes] = useState(" ");
@@ -61,6 +63,8 @@ function App() {
         <Navbar/>
         <Inicio/>
         <LancamentosFilmes filmes = {filmes} setFilmes = {setFilmes}/>
+        <SobreFilmeNav/>
+        <SobreFilmeSinopse/>
     </div>
   )
 }
