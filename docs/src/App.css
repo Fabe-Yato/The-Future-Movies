@@ -146,9 +146,10 @@ p{
 }
 .conteudo-principal-filmes{
     margin-top: 13%;
-     background-color: #000;
+    background-color: #000;
     width: 100%;
     height: 450px;
+    transition: 1s;
 }
 .legenda-lancamentos{
     font-size: 1.2rem;
@@ -219,21 +220,44 @@ p{
     
 }
 .sinopse-filme{
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 4%;
+    background-color: #810707e0;
 }
 .sinopse-filme img{
-    width: 45%;
+    width: 43%;
+    margin-left: 4%;
     border-radius: 10px;
     border: 1px solid white;
 }
 .filme-sinopse-texto{
+    width: 95%;
+    padding-left: 5%;
+    font-size: 1.4rem;
+}
+.personagens-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.personagens{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.personagens img{
     width: 100%;
-    padding-left: 8%;
-    font-size: 1.5rem;
+    height: 350px;
+}
+.nome-atores{
+    font-size: 1.1rem;
 }
 .doutor-estranho-banner{
     background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.425) 100%), url("./imgs/Doutor-Estranho-no-Multiverso-da-Loucura.jpg");
@@ -257,7 +281,38 @@ p{
     background-size: 100%;
 }
 
-
+@media (min-width:1500px){
+    .App{
+        background-size: 6000px;
+        font-size: 5rem;
+    }
+    .lista-Navbar{
+        font-size: 5rem;
+    }
+    .lista-Navbar li{
+        margin: 15px;
+        margin-right: 2%;
+    }
+    .lista-Navbar li a:hover{
+        font-size: 5.4rem;
+    }
+    .logoBatman{
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 19%;
+    }
+    .conteudo-principal{
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+    }
+    .conteudo-principal iframe{
+        width: 2300px;
+        height: 900px;
+        margin-left: 5%;
+        border-radius: 15px;
+    }
+}
 @media (max-width: 1200px){
     .conteudo-principal{
         margin-left: -2%;

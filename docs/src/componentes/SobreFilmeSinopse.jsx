@@ -3,10 +3,15 @@ import BatmanSinopseImage from '../imgs/thebat.png';
 const SobreFilmeSinopse = () => {
     return(
         <div>
-            <h1>SINOPSE</h1>
             <div className="sinopse-filme">
                 <img src={BatmanSinopseImage}/>
-                <p className="filme-sinopse-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laboriosam cumque deleniti voluptas eos molestias ratione laudantium aut cupiditate exercitationem reprehenderit esse aspernatur nihil, fugiat ipsam dolor! Modi, tenetur. Officiis.</p>
+
+                <div>
+                    <h1>SINOPSE</h1>
+                    <p className="filme-sinopse-texto">
+                        Já em seu segundo ano em ação pela cidade de Gotham, um Batman vingativo se depara com diversos assassinatos de pessoas importantes na politica. O herói mascarado se vê correndo contra o tempo para investigar quem está por trás de todas essas mortes e parar o responsável a todo custo.
+                    </p>
+                </div>  
             </div>
         </div>
     )
