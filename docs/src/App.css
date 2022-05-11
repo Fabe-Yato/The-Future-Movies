@@ -253,12 +253,24 @@ p{
     justify-content: center;
 }
 .personagens img{
-    width: 100%;
+    width: 250px;
     height: 350px;
 }
 .nome-atores{
     font-size: 1.1rem;
 }
+.outros-personagens{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.outros-personagens img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .doutor-estranho-banner{
     background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.425) 100%), url("./imgs/Doutor-Estranho-no-Multiverso-da-Loucura.jpg");
     background-size: 100%;
