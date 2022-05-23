@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 import "./App.css"
+import Aos from 'aos';
+
 import Navbar from "./componentes/Navbar";
 import Inicio from "./componentes/Inicio";
 import LancamentosFilmes from "./componentes/LancamentosFilmes";

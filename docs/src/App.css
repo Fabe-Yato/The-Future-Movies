@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #0b0a0aee;
 }
@@ -195,7 +198,7 @@ p{
     margin-top: 2%;
 }
 .logo-filme{
-    width: 60%;
+    width: 45%;
     margin-left: 10%;
 }
 .lista-Navbar-filme{

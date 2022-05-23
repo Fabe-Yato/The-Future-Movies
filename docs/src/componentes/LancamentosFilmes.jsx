@@ -3,7 +3,8 @@ import Thor from "../imgs/thor-amor-e-trovao-poster.jpg";
 import Morbius from "../imgs/morbius-poster.jpg";
 import Dumbledore from  "../imgs/secrets-of-dumbledore.jpg";
 import DoutorEstranho from "../imgs/doutor-estranho.webp";
-import HalloWeen from "../imgs/halloween-ends.jpg"
+import HalloWeen from "../imgs/halloween-ends.jpg";
+
 
 const LancamentosFilmes = (props) =>{
     const ThorFilme = () =>{
@@ -24,21 +25,34 @@ const LancamentosFilmes = (props) =>{
 
     return(
 
-        <div className="conteudo-principal-filmes">
-            <div id="proximo-lancamento" className="filmes-futuros">
-                <div className="ponta-filmes">
-                    <img onMouseEnter={ThorFilme} src={Thor}/>
+        <div  className="conteudo-principal-filmes">
+            <div 
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            className="filmes-futuros">
+                <div className="ponta-filmes" 
+                    data-aos="flip-left" 
+                    data-aos-duration="3000">
+                    <img  onMouseEnter={ThorFilme} src={Thor}/>
                 </div>
-                <div className="centro-filmes">
+                <div className="centro-filmes"
+                    data-aos="flip-left" 
+                    data-aos-duration="3000">
                     <img onMouseEnter={MorbiusFilme} src={Morbius}/>
                 </div>
-                <div className="centro-filme">
+                <div className="centro-filme"
+                    data-aos="flip-left" 
+                    data-aos-duration="3000">
                     <img onMouseEnter={DumbledoreFilme} src={Dumbledore}/>
                 </div>
-                <div className="centro-filmes">
+                <div className="centro-filmes"
+                    data-aos="flip-left" 
+                    data-aos-duration="3000" >
                     <img onMouseEnter={DoutorEstranhoFilme} src={DoutorEstranho}/>
                 </div >
-                <div className="ponta-filmes">
+                <div className="ponta-filmes"
+                    data-aos="flip-left" 
+                    data-aos-duration="3000" >
                     <img onMouseEnter={HalloweenFilme} src={HalloWeen}/>
                 </div>
             </div>

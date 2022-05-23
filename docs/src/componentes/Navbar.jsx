@@ -10,7 +10,7 @@ const Navbar = () =>{
                         <a href="#proximo-lancamento">Próximos Lançamentos</a>
                     </li>
                     <li>
-                        <a href="#">Sobre o Filme</a>
+                        <a href="#sobre-filme">Sobre o Filme</a>
                     </li>
                 </ul>
             </nav>

@@ -36,7 +36,7 @@ const Inicio = ()=>{
                     <div>
                         <img className="classificacao" src={ClassificacaoEtaria} />
                     </div>
-                    <div className="bilheteria">
+                    <div id="proximo-lancamento" className="bilheteria">
                         <p>$248 MILHÕES ARRECADADOS</p>
                     </div>
                     <div className="data">

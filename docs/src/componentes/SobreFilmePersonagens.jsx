@@ -122,11 +122,12 @@ const SobreFilmePersonagens = () => {
     }
          
     return(
-        <div>
+        <div id="personagens">
             <h1>PERSONAGENS</h1>
-            <div className="personagens-container">
+            <div className="personagens-container" data-aos="fade-up"
+                data-aos-duration="2000">
                 <div className="personagens">
-                    <img  className="batman-pic" src={BatmanPersonagem}/>
+                    <img className="batman-pic" src={BatmanPersonagem}/>
                     <p className="batman-name">Batman</p>
                     <p className='nome-atores'>Robert Pattinson</p>
                     <div className="outros-personagens">
